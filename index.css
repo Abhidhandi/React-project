@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  transition: 0.3s;
+}
+
+body.light {
+  background: #f5f7fb;
+  color: #000;
+}
+
+body.dark {
+  background: #121212;
+  color: #fff;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+.add-btn {
+  width: 100%;
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+.theme-btn {
+  float: right;
+  margin-bottom: 10px;
+}
+
+.task {
+  background: white;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+body.dark .task {
+  background: #1e1e1e;
+}
+
+.complete {
+  background: green;
+  color: white;
+  margin-right: 10px;
+}
+
+.delete {
+  background: red;
+  color: white;
+}
+
+.done {
+  text-decoration: line-through;
+}
